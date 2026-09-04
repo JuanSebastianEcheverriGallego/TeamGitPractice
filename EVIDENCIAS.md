@@ -210,6 +210,43 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 
 ---
 
+**integrante 3 — Marbel Juliana Mejía Bedoya**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-1-GitBash.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-Visual.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-2-Visual.png) |
+| Commit Commit-TeamMessage | [Commit-TeamMessage.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-TeamMessage.png) |
+| Comandos Conflicto | [Comandos-Para-generar-Conflicto-1-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-1-Bash.png) |
+| Comandos Conflicto - 2 | [Comandos-Para-generar-Conflicto-2-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-2-Bash.png) |
+| Comandos Conflicto - 3 | [Comandos-Para-generar-Conflicto-3-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-3-Bash.png) |
+| Commit Solución Conflicto | [Solucion-Conflicto-Visual-1.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-1.png) |
+| Commit Solución Conflicto - 2 | [Solucion-Conflicto-Visual-2.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-2) |
+
+---
+
+**integrante 4 — Jhon Fernando Sánchez Álvarez**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marlon_Garcia_Sepulveda/Commit-1-GitBash.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio.png](docs/Marlon_Garcia_Sepulveda/Commit-2-VisualStudio.png) |
+| Commit 3 — Temporal | [Commit-3-3-1-temporal-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-1-temporal-revert.png) |
+| Commit 3 — Revert | [Commit-3-3-2-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-2-revert.png) |
+
+---
+
+**integrante 5 — Marlon García Sepúlveda**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marlon_Garcia_Sepulveda/Commit-1-GitBash.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio.png](docs/Marlon_Garcia_Sepulveda/Commit-2-VisualStudio.png) |
+| Commit 3 — Temporal | [Commit-3-3-1-temporal-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-1-temporal-revert.png) |
+| Commit 3 — Revert | [Commit-3-3-2-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-2-revert.png) |
+
+---
+
 
 ## 5. Colaboradores del repositorio
 
