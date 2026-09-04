@@ -214,14 +214,14 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 
 | Evidencia | Archivo |
 |---|---|
-| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-1-GitBash.png) |
-| Commit 2 — Git Changes de Visual Studio | [Commit-2-Visual.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-2-Visual.png) |
-| Commit Commit-TeamMessage | [Commit-TeamMessage.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-TeamMessage.png) |
-| Comandos Conflicto | [Comandos-Para-generar-Conflicto-1-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-1-Bash.png) |
-| Comandos Conflicto - 2 | [Comandos-Para-generar-Conflicto-2-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-2-Bash.png) |
-| Comandos Conflicto - 3 | [Comandos-Para-generar-Conflicto-3-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-3-Bash.png) |
-| Commit Solución Conflicto | [Solucion-Conflicto-Visual-1.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-1.png) |
-| Commit Solución Conflicto - 2 | [Solucion-Conflicto-Visual-2.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-2) |
+| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-1-GitBash.jpeg) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-Visual.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-2-Visual.jpeg) |
+| Commit Commit-TeamMessage | [Commit-TeamMessage.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-TeamMessage.jpeg) |
+| Comandos Conflicto | [Comandos-Para-generar-Conflicto-1-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-1-Bash.jpeg) |
+| Comandos Conflicto - 2 | [Comandos-Para-generar-Conflicto-2-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-2-Bash.jpeg) |
+| Comandos Conflicto - 3 | [Comandos-Para-generar-Conflicto-3-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-3-Bash.jpeg) |
+| Commit Solución Conflicto | [Solucion-Conflicto-Visual-1.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-1.jpeg) |
+| Commit Solución Conflicto - 2 | [Solucion-Conflicto-Visual-2.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-2.jpeg) |
 
 ---
 
