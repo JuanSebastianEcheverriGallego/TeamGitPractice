@@ -219,7 +219,6 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 | Commit Commit-TeamMessage | [Commit-TeamMessage.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-TeamMessage.jpeg) |
 | Comandos Conflicto | [Comandos-Para-generar-Conflicto-1-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-1-Bash.jpeg) |
 | Comandos Conflicto - 2 | [Comandos-Para-generar-Conflicto-2-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-2-Bash.jpeg) |
-| Comandos Conflicto - 3 | [Comandos-Para-generar-Conflicto-3-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-3-Bash.jpeg) |
 | Commit Solución Conflicto | [Solucion-Conflicto-Visual-1.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-1.jpeg) |
 | Commit Solución Conflicto - 2 | [Solucion-Conflicto-Visual-2.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-2.jpeg) |
 
