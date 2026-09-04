@@ -12,5 +12,10 @@ namespace TeamGitPractice.Controllers
         {
             return Ok(new { version = "1.0.0" });
         }
+        [HttpGet("platform")]
+        public IActionResult GetPlatform()
+        {
+            return Ok(new { platform = ".NET 10", project = "TeamGitPractice" });
+        }
     }
 }
