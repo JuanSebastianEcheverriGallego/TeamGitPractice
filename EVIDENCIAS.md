@@ -206,7 +206,7 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 | Commit 1.2 — Git Bash (consola) | [Commit-1-2-GitBash.png](docs/David_Stiven_Franco_Lopez/Commit-1-2-GitBash.png) |
 | Commit 2 — Git Changes de Visual Studio | [Commit-2-1-VisualStudio.png](docs/David_Stiven_Franco_Lopez/Commit-2-1-VisualStudio.png) |
 | Commit 2 — Git Changes, confirmación | [Commit-2-2-VisualStudio.png](docs/David_Stiven_Franco_Lopez/Commit-2-2-VisualStudio.png) |
-| Commit Del Conflicto | [Commit-Conflicto.png](docs/David_Stiven_Franco_Lopez/Commit-Conflicto) |
+| Commit Del Conflicto | [Commit-Conflicto.png](docs/David_Stiven_Franco_Lopez/Commit-Conflicto.png) |
 
 ---
 
