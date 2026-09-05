@@ -228,10 +228,10 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 
 | Evidencia | Archivo |
 |---|---|
-| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marlon_Garcia_Sepulveda/Commit-1-GitBash.png) |
-| Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio.png](docs/Marlon_Garcia_Sepulveda/Commit-2-VisualStudio.png) |
-| Commit 3 — Temporal | [Commit-3-3-1-temporal-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-1-temporal-revert.png) |
-| Commit 3 — Revert | [Commit-3-3-2-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-2-revert.png) |
+| Commit 1 — Git Bash (consola) | [Commit-1-Consola.png](docs/Jhon_Fernando_Sanchez_Alvarez/Commit-1-Consola.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio-2.png](docs/Jhon_Fernando_Sanchez_Alvarez/Commit-2-VisualStudio-2.png) |
+| Commit 3 — restore--staged | [git-restore--staged.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore--staged.png) |
+| Commit 3 — restore | [git-restore.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore.png) |
 
 ---
 
