@@ -1,4 +1,4 @@
-﻿# EVIDENCIAS — Equipo 1
+# EVIDENCIAS — Equipo 1
 
 Repositorio: https://github.com/JuanSebastianEcheverriGallego/TeamGitPractice
 
@@ -10,11 +10,11 @@ Commit base de `main`: `79e39d6` — chore: create base ASP.NET Core Web API
 
 | Integrante | Rama personal | Commit consola | Commit Visual Studio | Pull Request | Reviewer |
 |---|---|---|---|---|---|
-| Juan Sebastian Echeverri Gallego | `juan-echeverri` | `abeb079` | `4a608e4d` | PENDIENTE | David Stiven Franco López |
-| David Stiven Franco López | `david-franco` | PENDIENTE | PENDIENTE | PENDIENTE | Marbel Juliana Mejía Bedoya |
-| Marbel Juliana Mejía Bedoya | `marbel-mejia` | PENDIENTE | PENDIENTE | PENDIENTE | Jhon Fernando Sánchez Álvarez |
-| Jhon Fernando Sánchez Álvarez | `jhon-sanchez` | PENDIENTE | PENDIENTE | PENDIENTE | Marlon García Sepúlveda |
-| Marlon García Sepúlveda | `marlon-garcia` | PENDIENTE | PENDIENTE | PENDIENTE | Juan Sebastian Echeverri Gallego |
+| Juan Sebastian Echeverri Gallego | `juan-echeverri` | `abeb079` | `4a608e4` | #4 | David Stiven Franco López |
+| David Stiven Franco López | `david-franco` | `703fd01` | `e13729f` | #11 | Marbel Juliana Mejía Bedoya |
+| Marbel Juliana Mejía Bedoya | `marbel-mejia` | `fe0dc35` | `19d24e7` | #7 | Jhon Fernando Sánchez Álvarez |
+| Jhon Fernando Sánchez Álvarez | `jhon-sanchez` | `85e86aa` | `0f84241` | #9  | Marlon García Sepúlveda |
+| Marlon García Sepúlveda | `marlon-garcia` | `3fe3b53` | `4a141d2` | #10  | Juan Sebastian Echeverri Gallego |
 
 ### Detalle integrante 1 — Juan Sebastian Echeverri Gallego
 
@@ -38,24 +38,116 @@ Adición del endpoint `GET /api/status/team`. El archivo `StatusController.cs` s
 pasó a staging desde el panel Cambios de GIT y se confirmó con
 "Confirmar cambios staged".
 
-**Endpoints verificados**
+**Pull Request #4** —
+- Rama: `juan-echeverri` → `main`
+- Reviewer: `Davdfranco` Aprobó ("todo ok, apruebo")
+- Merge commit: `fd7c67f` — Sep 4, 2026
 
-| Método | Ruta | Respuesta |
-|---|---|---|
-| GET | `/api/status` | `{"status":"Running"}` |
-| GET | `/api/status/team` | `{"team":"Equipo 1","status":"Ready"}` |
+
+### Detalle integrante 2 — David Stiven Franco López
+
+**Commit 1 (consola, Git Bash)**
+
+```
+703fd01  feat: add assigned API endpoint
+```
+
+Creación de `Controllers/MembersController.cs` con el endpoint `GET /api/members`.
+Secuencia ejecutada: `git status` → `git diff` → `git add .` → `git diff --staged`
+→ `git commit` → `git log --oneline -3`.
+
+**Commit 2 (Git Changes, Visual Studio Community 2026)**
+
+```
+e13729f  feat: extend members endpoint
+```
+Adición del endpoint `GET /api/members/count`. El archivo `MembersController.cs` se
+pasó a staging desde el panel Cambios de GIT y se confirmó con
+"Confirmar cambios staged".
+
+**Pull Request #11**
+- Rama: `david-franco` → `main`
+- Reviewer asignado: Marbel Juliana Mejía Bedoya (`JULIANA-s22`) Aprobó
+- Merge commit: `8a5a33e` — Sep 4, 2026
+
+---
+
+### Detalle integrante 3 — Marbel Juliana Mejía Bedoya
+
+**Commit 1 (consola)**
+
+```
+fe0dc35  feat: añadir endpoint api/version
+```
+
+**Commit 2 (Visual Studio)**
+
+```
+19d24e7  feat: añadir endpoint /platform
+```
+
+**Pull Request #7** 
+- Rama: `marbel-mejia` → `main`
+- Reviewer: `Jhonzn` (Jhon Fernando Sánchez Álvarez)
+- Merge commit: `c556fbf` — Sep 4, 2026
+- Descripción: Se agrega `api/version` y `/api/version/platform`
+
+---
+
+### Detalle integrante 4 — Jhon Fernando Sánchez Álvarez
+
+**Commit 1 (consola)**
+
+```
+85e86aa  crear GET /api/health
+```
+
+**Commit 2 (Visual Studio)**
+
+```
+0f84241  agregar GET /api/health/time
+```
+
+**Pull Request #9** — `
+- Rama: `jhon-sanchez` → `main`
+- Reviewer: `M3rl0n` (Marlon García Sepúlveda)
+- Merge commit: `2bba0aa` — Sep 4, 2026
+- Descripción: Se agrega el HealthController y se extiende el endpoint de status.
+
+---
+
+### Detalle integrante 5 — Marlon García Sepúlveda
+
+**Commit 1 (consola)**
+
+```
+3fe3b53  feat: add assigned API endpoint
+```
+
+**Commit 2 (Visual Studio)**
+
+```
+4a141d2  feat: extend status endpoint.
+```
+
+**Pull Request #10** — 
+- Rama: `marlon-garcia` → `main`
+- Reviewer solicitado: `JuanSebastianEcheverriGallego`
+- Merge commit: `ebf9537` — Sep 4, 2026
+- Descripción: Agrega el controlador InfoController con los endpoints `/api/info` y `/api/info/tools`.
 
 ---
 
 ## 2. Conflicto en TeamMessage.txt
 
 - Integrantes involucrados: David Stiven Franco López (integrante 2) y Marbel Juliana Mejía Bedoya (integrante 3)
-- Pull Request donde se resolvió: PENDIENTE
-- Hash del commit de resolución: PENDIENTE
+- Pull Request donde se resolvió: **#7** (rama `marbel-mejia`)
+- https://github.com/JuanSebastianEcheverriGallego/TeamGitPractice/pull/7/changes/b807567add41bcad0ee636db5196432ba8d8b2fe
+- Hash del commit de resolución: **`b807567`**
+- Mensaje del commit de resolución: `fix: resolve team message conflict.`
 - Versión del integrante 2: `Estado del proyecto: preparado para entrega.`
 - Versión del integrante 3: `Estado del proyecto: en validación.`
 - Texto final acordado: `Estado del proyecto: preparado para entrega y en validación.`
-- Mensaje del commit de resolución: `fix: resolve team message conflict`
 
 Causa del conflicto: ambas ramas personales se crearon desde el mismo commit de
 `main` y modificaron la misma línea del archivo. Al integrarse primero el Pull
@@ -72,7 +164,9 @@ Modificación temporal de `README.md` en la rama `jhon-sanchez`, revisión de la
 diferencia con `git diff README.md` y descarte del cambio con
 `git restore README.md`. `git status` quedó sin cambios pendientes.
 
-Evidencia: PENDIENTE (captura o salida de terminal)
+| Evidencia | Archivo |
+|---|---|
+| Commit 3 — restore | [git-restore.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore.png) |
 
 ### 3.2 `git restore --staged` — Jhon Fernando Sánchez Álvarez (integrante 4)
 
@@ -80,14 +174,17 @@ Nueva modificación de `README.md`, paso a staging con `git add README.md` y
 retiro del staging con `git restore --staged README.md`, conservando el archivo
 en el directorio de trabajo. Posteriormente se descartó con `git restore README.md`.
 
-Evidencia: PENDIENTE (captura o salida de terminal)
+| Evidencia | Archivo |
+|---|---|
+| Commit 3 — restore--staged | [git-restore--staged.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore--staged.png) |
+
 
 ### 3.3 `git revert` — Marlon García Sepúlveda (integrante 5)
 
 - Rama auxiliar: `marlon-garcia-revert` (no se integra a `main`)
 - Archivo creado: `TemporaryNote.txt`
-- Hash del commit temporal: PENDIENTE — `test: add temporary note`
-- Hash del commit generado por revert: PENDIENTE
+- Hash del commit temporal: `978e6e9` — `test: add temporary note`
+- Hash del commit generado por revert:  `4c661ed`
 
 Ambos commits se conservan en el historial de la rama auxiliar.
 
@@ -95,14 +192,65 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 
 ## 4. Capturas
 
+**integrante 1 — Juan Sebastian Echeverri Gallego**
+
 | Evidencia | Archivo |
 |---|---|
 | Commit 1 — Git Bash (consola) | [Commit-1-Consola.png](docs/JuanSebastianEcheverriGallego/Commit-1-Consola.png) |
 | Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio-1.png](docs/JuanSebastianEcheverriGallego/Commit-2-VisualStudio-1.png) |
 | Commit 2 — Git Changes, confirmación | [Commit-2-VisualStudio-2.png](docs/JuanSebastianEcheverriGallego/Commit-2-VisualStudio-2.png) |
-| Colaboradores del repositorio (incluye `orlapez`) | [colaboradores.png](docs/colaboradores.png) |
+| Colaboradores del repositorio (incluye `oalarconpe`) | [colaboradores.png](docs/colaboradores.png) |
 
 ---
+
+**integrante 2 — David Stiven Franco Lopez**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-1-GitBash.png](docs/David_Stiven_Franco_Lopez/Commit-1-1-GitBash.png) |
+| Commit 1.2 — Git Bash (consola) | [Commit-1-2-GitBash.png](docs/David_Stiven_Franco_Lopez/Commit-1-2-GitBash.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-1-VisualStudio.png](docs/David_Stiven_Franco_Lopez/Commit-2-1-VisualStudio.png) |
+| Commit 2 — Git Changes, confirmación | [Commit-2-2-VisualStudio.png](docs/David_Stiven_Franco_Lopez/Commit-2-2-VisualStudio.png) |
+| Commit Del Conflicto | [Commit-Conflicto.png](docs/David_Stiven_Franco_Lopez/Commit-Conflicto.png) |
+
+---
+
+**integrante 3 — Marbel Juliana Mejía Bedoya**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-1-GitBash.jpeg) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-Visual.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-2-Visual.jpeg) |
+| Commit Commit-TeamMessage | [Commit-TeamMessage.png](docs/Marbel_Juliana_Mejía_Bedoya/Commit-TeamMessage.jpeg) |
+| Comandos Conflicto | [Comandos-Para-generar-Conflicto-1-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-1-Bash.jpeg) |
+| Comandos Conflicto - 2 | [Comandos-Para-generar-Conflicto-2-Bash.png](docs/Marbel_Juliana_Mejía_Bedoya/Comandos-Para-generar-Conflicto-3-Bash.jpeg) |
+| Commit Solución Conflicto | [Solucion-Conflicto-Visual-1.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-1.jpeg) |
+| Commit Solución Conflicto - 2 | [Solucion-Conflicto-Visual-2.png](docs/Marbel_Juliana_Mejía_Bedoya/Solucion-Conflicto-Visual-2.jpeg) |
+
+---
+
+**integrante 4 — Jhon Fernando Sánchez Álvarez**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-Consola.png](docs/Jhon_Fernando_Sanchez_Alvarez/Commit-1-Consola.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio-2.png](docs/Jhon_Fernando_Sanchez_Alvarez/Commit-2-VisualStudio-2.png) |
+| Commit 3 — restore--staged | [git-restore--staged.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore--staged.png) |
+| Commit 3 — restore | [git-restore.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore.png) |
+
+---
+
+**integrante 5 — Marlon García Sepúlveda**
+
+| Evidencia | Archivo |
+|---|---|
+| Commit 1 — Git Bash (consola) | [Commit-1-GitBash.png](docs/Marlon_Garcia_Sepulveda/Commit-1-GitBash.png) |
+| Commit 2 — Git Changes de Visual Studio | [Commit-2-VisualStudio.png](docs/Marlon_Garcia_Sepulveda/Commit-2-VisualStudio.png) |
+| Commit 3 — Temporal | [Commit-3-3-1-temporal-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-1-temporal-revert.png) |
+| Commit 3 — Revert | [Commit-3-3-2-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-2-revert.png) |
+
+---
+
 
 ## 5. Colaboradores del repositorio
 
@@ -113,4 +261,8 @@ Ambos commits se conservan en el historial de la rama auxiliar.
 | Marbel Juliana Mejía Bedoya | `JULIANA-s22` |
 | Jhon Fernando Sánchez Álvarez | `Jhonzn` |
 | Marlon García Sepúlveda | `M3rl0n` |
-| Profesor | `orlapez` |
+| Profesor | `oalarconpe` |
+
+---
+
+

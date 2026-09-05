@@ -34,3 +34,16 @@ La API queda disponible en la URL que indique la consola (por defecto
 Community 2026 con F5.
 
 ## Endpoints
+
+| Endpoint | Responsable | Descripción |
+|---|---|---|
+| `GET /api/status` | Juan Sebastián Echeverri Gallego | Estado de la API |
+| `GET /api/status/team` | Juan Sebastián Echeverri Gallego | Estado del equipo |
+| `GET /api/members` | David Stiven Franco López | Lista de integrantes |
+| `GET /api/members/count` | David Stiven Franco López | Cantidad de integrantes |
+| `GET /api/version` | Marbel Juliana Mejía Bedoya | Versión de la aplicación |
+| `GET /api/version/platform` | Marbel Juliana Mejía Bedoya | Plataforma y proyecto |
+| `GET /api/health` | Jhon Fernando Sánchez Álvarez | Estado de salud de la API |
+| `GET /api/health/time` | Jhon Fernando Sánchez Álvarez | Hora UTC actual del servidor |
+| `GET /api/info` | Marlon García Sepúlveda | Información general del proyecto |
+| `GET /api/info/tools` | Marlon García Sepúlveda | Herramientas utilizadas |
