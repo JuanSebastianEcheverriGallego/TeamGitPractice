@@ -166,7 +166,6 @@ diferencia con `git diff README.md` y descarte del cambio con
 
 | Evidencia | Archivo |
 |---|---|
-| Commit 3 — restore--staged | [git-restore--staged.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore--staged.png) |
 | Commit 3 — restore | [git-restore.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore.png) |
 
 ### 3.2 `git restore --staged` — Jhon Fernando Sánchez Álvarez (integrante 4)
@@ -177,8 +176,8 @@ en el directorio de trabajo. Posteriormente se descartó con `git restore README
 
 | Evidencia | Archivo |
 |---|---|
-| Commit 3 — Temporal | [Commit-3-3-1-temporal-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-1-temporal-revert.png) |
-| Commit 3 — Revert | [Commit-3-3-2-revert.png](docs/Marlon_Garcia_Sepulveda/Commit-3-3-2-revert.png) |
+| Commit 3 — restore--staged | [git-restore--staged.png](docs/Jhon_Fernando_Sanchez_Alvarez/git-restore--staged.png) |
+
 
 ### 3.3 `git revert` — Marlon García Sepúlveda (integrante 5)
 
